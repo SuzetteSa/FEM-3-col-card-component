@@ -48,7 +48,7 @@ I started by building the mobile layout then used a media query to format the de
 ## Author
 
 - Website - [Suzette Samm](https://www.suzettesamm.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@SuzetteSa](https://www.frontendmentor.io/profile/SuzetteSa)
+- LinkedIn - [@suzettesamm](https://www.linkedin.com/in/suzette-samm/)
 
 
