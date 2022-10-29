@@ -1,0 +1,139 @@
+body {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+img {
+  margin: 20px 0px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-1 {
+  border-radius: 10px 10px 0px 0px;
+  background-color: hsl(31, 77%, 52%);
+  margin: 70px 10px 0px 10px;
+  padding: 40px 60px;
+}
+
+.card-2 {
+  margin: 0px 10px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px 60px;
+}
+
+.card-3 {
+  border-radius: 0px 0px 10px 10px;
+  background-color: hsl(179, 100%, 13%);
+  margin: 0px 10px 0px 10px;
+  padding: 40px 60px;
+}
+
+.card-title {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 45px;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 30px;
+}
+
+.card-text {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 15px 35px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.card-1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+.attribution {
+  margin: 10px 0px 60px 0px;
+}
+
+@media (min-width: 900px) {
+  html {
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .cards {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .card-1 {
+    max-width: 200px;
+    border-radius: 10px 0px 0px 10px;
+    background-color: hsl(31, 77%, 52%);
+    margin: 0px 0px 0px 10px;
+    padding: 20px 40px;
+  }
+
+  .card-2 {
+    max-width: 200px;
+    margin: 0px 0px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px 40px;
+  }
+
+  .card-3 {
+    max-width: 200px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: hsl(179, 100%, 13%);
+    margin: 0px 10px 0px 0px;
+    padding: 20px 40px;
+  }
+
+  .card-text {
+    margin-bottom: 70px;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+
+  .card-1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    transition: all 200ms ease;
+  }
+
+  .card-2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    transition: all 200ms ease;
+  }
+
+  .card-3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    transition: all 200ms ease;
+  }
+}
